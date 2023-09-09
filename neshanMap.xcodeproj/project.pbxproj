@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83181195D894E7DC606BAB69 /* Pods_neshanMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E09419EF43DEDEF634C006 /* Pods_neshanMap.framework */; };
+		994B93DDC0677C90253A3AB0 /* Pods_neshanMap_neshanMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C5AF9D7D47A0BE8E6E98F3 /* Pods_neshanMap_neshanMapUITests.framework */; };
+		B4EFF496CBA66822F8538B6F /* Pods_neshanMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9D3E4F63E90962DDCB81D0 /* Pods_neshanMapTests.framework */; };
+		E044402B2AA738F500E96721 /* neshan.license in Resources */ = {isa = PBXBuildFile; fileRef = E0AAC4E92AA7255C007915FF /* neshan.license */; settings = {ASSET_TAGS = (New, ); }; };
+		E044402C2AA738F600E96721 /* neshan.license in Resources */ = {isa = PBXBuildFile; fileRef = E0AAC4E92AA7255C007915FF /* neshan.license */; settings = {ASSET_TAGS = (New, ); }; };
 		E0AAC4B92AA72451007915FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAC4B82AA72451007915FF /* AppDelegate.swift */; };
 		E0AAC4BB2AA72451007915FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAC4BA2AA72451007915FF /* SceneDelegate.swift */; };
 		E0AAC4BD2AA72451007915FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAC4BC2AA72451007915FF /* ViewController.swift */; };
@@ -16,6 +21,7 @@
 		E0AAC4D02AA72451007915FF /* neshanMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAC4CF2AA72451007915FF /* neshanMapTests.swift */; };
 		E0AAC4DA2AA72451007915FF /* neshanMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAC4D92AA72451007915FF /* neshanMapUITests.swift */; };
 		E0AAC4DC2AA72451007915FF /* neshanMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AAC4DB2AA72451007915FF /* neshanMapUITestsLaunchTests.swift */; };
+		E0AAC4EA2AA7255C007915FF /* neshan.license in Resources */ = {isa = PBXBuildFile; fileRef = E0AAC4E92AA7255C007915FF /* neshan.license */; settings = {ASSET_TAGS = (New, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F9D3E4F63E90962DDCB81D0 /* Pods_neshanMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neshanMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACCFA112B08D6F87BAE6EB7 /* Pods-neshanMap-neshanMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neshanMap-neshanMapUITests.release.xcconfig"; path = "Target Support Files/Pods-neshanMap-neshanMapUITests/Pods-neshanMap-neshanMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7FE4282A77351E8CB1FFA90 /* Pods-neshanMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neshanMapTests.debug.xcconfig"; path = "Target Support Files/Pods-neshanMapTests/Pods-neshanMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0E09419EF43DEDEF634C006 /* Pods_neshanMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neshanMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C5AF9D7D47A0BE8E6E98F3 /* Pods_neshanMap_neshanMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neshanMap_neshanMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C56FB3B6D4B425931A1DD6 /* Pods-neshanMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neshanMap.release.xcconfig"; path = "Target Support Files/Pods-neshanMap/Pods-neshanMap.release.xcconfig"; sourceTree = "<group>"; };
+		C603B4B125A8B4C8F502BF50 /* Pods-neshanMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neshanMap.debug.xcconfig"; path = "Target Support Files/Pods-neshanMap/Pods-neshanMap.debug.xcconfig"; sourceTree = "<group>"; };
+		D57F029F5873148ABC1EF596 /* Pods-neshanMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neshanMapTests.release.xcconfig"; path = "Target Support Files/Pods-neshanMapTests/Pods-neshanMapTests.release.xcconfig"; sourceTree = "<group>"; };
 		E0AAC4B52AA72451007915FF /* neshanMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neshanMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0AAC4B82AA72451007915FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0AAC4BA2AA72451007915FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,9 @@
 		E0AAC4D52AA72451007915FF /* neshanMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neshanMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0AAC4D92AA72451007915FF /* neshanMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neshanMapUITests.swift; sourceTree = "<group>"; };
 		E0AAC4DB2AA72451007915FF /* neshanMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neshanMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0AAC4E92AA7255C007915FF /* neshan.license */ = {isa = PBXFileReference; lastKnownFileType = text; path = neshan.license; sourceTree = SOURCE_ROOT; };
+		E0AAC4EB2AA727A1007915FF /* neshanMap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "neshanMap-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA4BCE6EDCACBB9421B7B607 /* Pods-neshanMap-neshanMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neshanMap-neshanMapUITests.debug.xcconfig"; path = "Target Support Files/Pods-neshanMap-neshanMapUITests/Pods-neshanMap-neshanMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83181195D894E7DC606BAB69 /* Pods_neshanMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4EFF496CBA66822F8538B6F /* Pods_neshanMapTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994B93DDC0677C90253A3AB0 /* Pods_neshanMap_neshanMapUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EA7EDF5A7AD1B0EE85F7F56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0E09419EF43DEDEF634C006 /* Pods_neshanMap.framework */,
+				C1C5AF9D7D47A0BE8E6E98F3 /* Pods_neshanMap_neshanMapUITests.framework */,
+				5F9D3E4F63E90962DDCB81D0 /* Pods_neshanMapTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E5AEF9631CE999E7EAE42C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C603B4B125A8B4C8F502BF50 /* Pods-neshanMap.debug.xcconfig */,
+				C3C56FB3B6D4B425931A1DD6 /* Pods-neshanMap.release.xcconfig */,
+				FA4BCE6EDCACBB9421B7B607 /* Pods-neshanMap-neshanMapUITests.debug.xcconfig */,
+				9ACCFA112B08D6F87BAE6EB7 /* Pods-neshanMap-neshanMapUITests.release.xcconfig */,
+				B7FE4282A77351E8CB1FFA90 /* Pods-neshanMapTests.debug.xcconfig */,
+				D57F029F5873148ABC1EF596 /* Pods-neshanMapTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E0AAC4AC2AA72451007915FF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +126,8 @@
 				E0AAC4CE2AA72451007915FF /* neshanMapTests */,
 				E0AAC4D82AA72451007915FF /* neshanMapUITests */,
 				E0AAC4B62AA72451007915FF /* Products */,
+				8E5AEF9631CE999E7EAE42C1 /* Pods */,
+				2EA7EDF5A7AD1B0EE85F7F56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +144,7 @@
 		E0AAC4B72AA72451007915FF /* neshanMap */ = {
 			isa = PBXGroup;
 			children = (
+				E0AAC4E92AA7255C007915FF /* neshan.license */,
 				E0AAC4B82AA72451007915FF /* AppDelegate.swift */,
 				E0AAC4BA2AA72451007915FF /* SceneDelegate.swift */,
 				E0AAC4BC2AA72451007915FF /* ViewController.swift */,
@@ -106,6 +152,7 @@
 				E0AAC4C12AA72451007915FF /* Assets.xcassets */,
 				E0AAC4C32AA72451007915FF /* LaunchScreen.storyboard */,
 				E0AAC4C62AA72451007915FF /* Info.plist */,
+				E0AAC4EB2AA727A1007915FF /* neshanMap-Bridging-Header.h */,
 			);
 			path = neshanMap;
 			sourceTree = "<group>";
@@ -134,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0AAC4DF2AA72451007915FF /* Build configuration list for PBXNativeTarget "neshanMap" */;
 			buildPhases = (
+				550C10AF695E20F8C06A929F /* [CP] Check Pods Manifest.lock */,
 				E0AAC4B12AA72451007915FF /* Sources */,
 				E0AAC4B22AA72451007915FF /* Frameworks */,
 				E0AAC4B32AA72451007915FF /* Resources */,
@@ -151,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0AAC4E22AA72451007915FF /* Build configuration list for PBXNativeTarget "neshanMapTests" */;
 			buildPhases = (
+				EAB3C81F32E241B4B716ACDB /* [CP] Check Pods Manifest.lock */,
 				E0AAC4C72AA72451007915FF /* Sources */,
 				E0AAC4C82AA72451007915FF /* Frameworks */,
 				E0AAC4C92AA72451007915FF /* Resources */,
@@ -169,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0AAC4E52AA72451007915FF /* Build configuration list for PBXNativeTarget "neshanMapUITests" */;
 			buildPhases = (
+				EB891F38394FEDF6A7A61F30 /* [CP] Check Pods Manifest.lock */,
 				E0AAC4D12AA72451007915FF /* Sources */,
 				E0AAC4D22AA72451007915FF /* Frameworks */,
 				E0AAC4D32AA72451007915FF /* Resources */,
@@ -190,11 +240,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					E0AAC4B42AA72451007915FF = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 					E0AAC4CA2AA72451007915FF = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -231,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0AAC4EA2AA7255C007915FF /* neshan.license in Resources */,
 				E0AAC4C52AA72451007915FF /* LaunchScreen.storyboard in Resources */,
 				E0AAC4C22AA72451007915FF /* Assets.xcassets in Resources */,
 				E0AAC4C02AA72451007915FF /* Main.storyboard in Resources */,
@@ -241,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E044402B2AA738F500E96721 /* neshan.license in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,10 +304,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E044402C2AA738F600E96721 /* neshan.license in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		550C10AF695E20F8C06A929F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-neshanMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAB3C81F32E241B4B716ACDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-neshanMapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB891F38394FEDF6A7A61F30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-neshanMap-neshanMapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0AAC4B12AA72451007915FF /* Sources */ = {
@@ -432,11 +558,14 @@
 		};
 		E0AAC4E02AA72451007915FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C603B4B125A8B4C8F502BF50 /* Pods-neshanMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = neshanMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -444,6 +573,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,6 +582,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = neshan.neshanMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "neshanMap/neshanMap-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,11 +591,15 @@
 		};
 		E0AAC4E12AA72451007915FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C56FB3B6D4B425931A1DD6 /* Pods-neshanMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = neshanMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -471,14 +607,17 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = neshan.neshanMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "neshanMap/neshanMap-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -486,6 +625,7 @@
 		};
 		E0AAC4E32AA72451007915FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7FE4282A77351E8CB1FFA90 /* Pods-neshanMapTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +645,7 @@
 		};
 		E0AAC4E42AA72451007915FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57F029F5873148ABC1EF596 /* Pods-neshanMapTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +665,7 @@
 		};
 		E0AAC4E62AA72451007915FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA4BCE6EDCACBB9421B7B607 /* Pods-neshanMap-neshanMapUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +683,7 @@
 		};
 		E0AAC4E72AA72451007915FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ACCFA112B08D6F87BAE6EB7 /* Pods-neshanMap-neshanMapUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
